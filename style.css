@@ -819,6 +819,7 @@ section{
 
 
     flex-wrap:wrap;
+    
 
 
     gap:15px;
@@ -3192,8 +3193,186 @@ section{
 
 
 }
+/*======================================
+        LAUNCH OFFER
+======================================*/
+
+.launch-offer{
+
+    padding:40px 0 90px;
+
+}
 
 
 
+.offer-card{
+
+    max-width:520px;
+
+    margin:auto;
+
+    padding:45px 35px;
+
+    text-align:center;
+
+    border-radius:35px;
+
+    background:linear-gradient(
+        145deg,
+        rgba(21,151,255,.12),
+        rgba(255,255,255,.04)
+    );
+
+    border:1px solid rgba(255,255,255,.12);
+
+    box-shadow:0 20px 60px rgba(0,0,0,.35);
+
+}
+
+
+
+.offer-image{
+
+    width:260px;
+
+    margin:0 auto 25px;
+
+    animation:float 5s ease-in-out infinite;
+
+}
+
+
+
+.offer-title{
+
+    display:inline-block;
+
+    background:#ff6b00;
+
+    color:white;
+
+    padding:10px 22px;
+
+    border-radius:40px;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+    letter-spacing:1px;
+
+}
+
+
+
+.offer-country{
+
+    margin-top:10px;
+
+    color:#6FD6FF;
+
+    font-weight:700;
+
+    font-size:1.1rem;
+
+}
+
+
+
+.offer-price{
+
+    margin:15px 0 25px;
+
+}
+
+
+
+.offer-price .old-price{
+
+    display:block;
+
+    font-size:1.5rem;
+
+    color:#8b96af;
+
+    text-decoration:line-through;
+
+    margin-bottom:8px;
+
+}
+
+
+
+.offer-price .new-price{
+
+    display:block;
+
+    font-size:4rem;
+
+    font-weight:900;
+
+    line-height:1;
+
+    color:#ffffff;
+
+    text-shadow:0 0 25px rgba(21,151,255,.45);
+
+}
+
+
+
+.offer-shipping{
+
+    margin:25px 0 35px;
+
+    color:#8CFFB0;
+
+    font-size:1.1rem;
+
+    font-weight:700;
+
+}
+/*============================
+
+        TOP MENU
+
+=============================*/
+
+.top-menu a{
+
+    white-space:nowrap;
+
+    padding:10px 18px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:white;
+
+    font-size:.85rem;
+
+    transition:.35s;
+    display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:12px;
+width:100%;
+justify-items:center;
+
+}
+
+.menu-buy{
+
+    background:#25D366 !important;
+
+    color:#08140D !important;
+
+    font-weight:700;
+
+}
 
 
