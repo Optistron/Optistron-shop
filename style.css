@@ -936,7 +936,7 @@ section{
 .hero-product{
 
 
-   width: min(72vw, 420px);
+   width: min(90vw,280px);
 
      border-radius: 50%;
 
@@ -3164,7 +3164,6 @@ top: 45px;
 
 
 
-    .detail-image,
     .detail-content{
 
 
@@ -3382,4 +3381,94 @@ top: 45px;
 
 }
 
+/*============================
 
+        VIDEOOO TELESCOPIO
+
+=============================*/
+
+.gallery-video video{
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
+
+
+/*============================
+
+        AVATARES
+
+=============================*/
+.review-avatar{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+
+.review-avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.review-card{
+    background: #a2c4fa1d;
+    padding: 25px;
+    border: 1px solid #a4cfe49b;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.1);
+    text-align: center;
+    transition: .3s ease;
+    flex: 1;
+    min-width: 280px;
+}
+
+
+.review-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.stars{
+    color: #FFD700;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.review-card p{
+    color: #fcfbfb;
+    line-height: 1.6;
+    font-style: arial;
+}
+
+.review-card h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: #9bfe4a;
+}
+
+.review-card h3{
+    margin: 8px 0 4px;
+}
+
+.stars{
+    margin: 4px 0 8px;
+}
+
+.review-card p{
+    margin: 0;
+}
+
+.reviews-grid{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
